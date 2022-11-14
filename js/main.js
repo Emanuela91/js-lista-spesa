@@ -6,15 +6,28 @@ let myList = ["pane", "pasta", "pomodori", "insalata", "pesce", "formaggio"];
 //     console.log(myList[i]);
 // }
 
-let i = 0;
 
+console.log(myList);
+
+let i = 0;
 while (i < myList.length) {
     console.log(myList[i]);
     i ++;
 }
 
+// --------------------------------------------------------
+// aggiungi alla lista "BONUS"
+// const button = document.getElementById("aggiungi");
 
-// aggiungi alla lista
-// let aggiungi = prompt("aggiungi alla lista");
-// myList.push(aggiungi);
-// console.log(myList[i]);
+// button.addEventListener("click",
+//     function(){
+//         let newArticle = document.getElementById("text").value;
+//         myList.push(newArticle);
+
+//         let i = 0;
+//         while (i < myList.length) {
+//             console.log(myList[i]);
+//             i ++;
+//         }
+//     }        
+// )
